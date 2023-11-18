@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"github.com/binariarvore/studies-go/structs/exercises"
+)
 
 func main() {
-	fmt.Println("Hello")
+	// exercises.ExerciseOne()
+	// exercises.ExerciseTwo()
+	// exercises.ExerciseThree()
+	exercises.ExerciseFour()
 }
