@@ -2,12 +2,12 @@ package exercises
 
 /* - Callback: passe uma função como argumento a outra função. */
 
-func recursive(x int, y []int) int {
+func Recursive(x int, y []int) int {
 	if x == 0 {
 		return y[x]
 	}
 
-	return y[x] + recursive(x-1, y)
+	return y[x] + Recursive(x-1, y)
 }
 
 func ExerciseSeven(f func(int, []int) int, x ...int) int {
